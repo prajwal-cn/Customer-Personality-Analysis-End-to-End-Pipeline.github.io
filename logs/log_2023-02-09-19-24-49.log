@@ -1,0 +1,21 @@
+[2023-02-09 19:24:50,890] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', marketing_campaign_csv_file='artifacts\\dataset\\ingested_data\\marketing_campaign.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2023-02-09 19:24:50,892] root - INFO - ====================Data Validation log started.==================== 
+[2023-02-09 19:24:50,900] root - INFO -  Shape of the data file: (2240, 29)
+[2023-02-09 19:24:50,909] numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2023-02-09 19:24:50,925] root - INFO -  Shape of cleaned data file: (2204, 34)
+[2023-02-09 19:24:50,956] root - INFO - Saved cleaned data to artifacts\dataset\clean_data
+[2023-02-09 19:24:50,956] root - INFO - ====================Data Validation log completed.==================== 
+
+
+[2023-02-09 19:24:50,957] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2023-02-09 19:24:50,957] root - INFO - ====================Data Transformation log started.==================== 
+[2023-02-09 19:24:50,987] root - INFO - Saved personality data to artifacts\dataset\transformed_data
+[2023-02-09 19:24:50,988] root - INFO - ====================Data Transformation log completed.==================== 
+
+
+[2023-02-09 19:24:50,988] root - INFO - Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.csv', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2023-02-09 19:24:50,988] root - INFO - ====================Model Trainer log started.==================== 
+[2023-02-09 19:25:07,929] root - INFO - Saving final model to artifacts\trained_model\model.pkl
+[2023-02-09 19:25:07,930] root - INFO - ====================Model Trainer log completed.==================== 
+
+

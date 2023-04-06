@@ -1,0 +1,9 @@
+[2023-02-09 19:05:26,603] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', marketing_campaign_csv_file='artifacts\\dataset\\ingested_data\\marketing_campaign.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2023-02-09 19:05:26,604] root - INFO - ====================Data Validation log started.==================== 
+[2023-02-09 19:05:26,641] root - INFO -  Shape of the data file: (2240, 29)
+[2023-02-09 19:05:26,730] numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2023-02-09 19:05:26,764] root - INFO -  Shape of cleaned data file: (2204, 34)
+[2023-02-09 19:05:26,798] root - INFO - Saved cleaned data to artifacts\dataset\clean_data
+[2023-02-09 19:05:26,798] root - INFO - ====================Data Validation log completed.==================== 
+
+

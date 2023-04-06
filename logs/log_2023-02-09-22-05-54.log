@@ -1,0 +1,15 @@
+[2023-02-09 22:05:55,789] werkzeug - WARNING -  * Debugger is active!
+[2023-02-09 22:05:55,789] werkzeug - INFO -  * Debugger PIN: 294-818-109
+[2023-02-09 22:05:55,831] werkzeug - INFO -  * Running on http://127.0.0.1:5003/ (Press CTRL+C to quit)
+[2023-02-09 22:06:51,070] root - INFO - Model Prediction Config: ModelPredictionConfig(trained_model_path='artifacts\\trained_model\\model.pkl')
+[2023-02-09 22:06:51,093] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 22:06:51] "[37mPOST /predict HTTP/1.1[0m" 200 -
+[2023-02-09 22:07:15,305] root - INFO - Model Prediction Config: ModelPredictionConfig(trained_model_path='artifacts\\trained_model\\model.pkl')
+[2023-02-09 22:07:15,309] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 22:07:15] "[37mPOST /predict HTTP/1.1[0m" 200 -
+[2023-02-09 22:07:28,450] root - INFO - Model Prediction Config: ModelPredictionConfig(trained_model_path='artifacts\\trained_model\\model.pkl')
+[2023-02-09 22:07:28,454] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 22:07:28] "[37mPOST /predict HTTP/1.1[0m" 200 -
+[2023-02-09 22:07:58,839] root - INFO - Model Prediction Config: ModelPredictionConfig(trained_model_path='artifacts\\trained_model\\model.pkl')
+[2023-02-09 22:07:58,843] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 22:07:58] "[37mPOST /predict HTTP/1.1[0m" 200 -
+[2023-02-09 22:08:18,083] root - INFO - Model Prediction Config: ModelPredictionConfig(trained_model_path='artifacts\\trained_model\\model.pkl')
+[2023-02-09 22:08:18,087] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 22:08:18] "[37mPOST /predict HTTP/1.1[0m" 200 -
+[2023-02-09 22:08:57,608] root - INFO - Model Prediction Config: ModelPredictionConfig(trained_model_path='artifacts\\trained_model\\model.pkl')
+[2023-02-09 22:08:57,622] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 22:08:57] "[37mPOST /predict HTTP/1.1[0m" 200 -

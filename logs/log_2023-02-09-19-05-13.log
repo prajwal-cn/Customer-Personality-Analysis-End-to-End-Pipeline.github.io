@@ -1,0 +1,2 @@
+[2023-02-09 19:05:13,607] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', marketing_campaign_csv_file='artifacts\\dataset\\ingested_data\\marketing_campaign_csv_file', serialized_objects_dir='artifacts\\serialized_objects')
+[2023-02-09 19:05:13,607] root - INFO - ====================Data Validation log started.==================== 

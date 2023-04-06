@@ -1,0 +1,8 @@
+[2023-02-09 18:46:14,054] root - INFO - ====================Data Ingestion log started.==================== 
+[2023-02-09 18:46:14,054] root - INFO - Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/Shivan118/Main-Branching/raw/main/marketing_campaign.zip', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2023-02-09 18:46:14,055] root - INFO - Downloading data from https://github.com/Shivan118/Main-Branching/raw/main/marketing_campaign.zip into file artifacts\dataset\raw_data\marketing_campaign.zip
+[2023-02-09 18:46:15,533] root - INFO - Downloaded data from https://github.com/Shivan118/Main-Branching/raw/main/marketing_campaign.zip into file artifacts\dataset\raw_data\marketing_campaign.zip
+[2023-02-09 18:46:15,562] root - INFO - Extracting zip file: artifacts\dataset\raw_data\marketing_campaign.zip into dir: artifacts\dataset\ingested_data
+[2023-02-09 18:46:15,562] root - INFO - ====================Data Ingestion log completed.==================== 
+
+

@@ -1,0 +1,15 @@
+[2023-02-09 19:15:25,811] root - INFO - Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', marketing_campaign_csv_file='artifacts\\dataset\\ingested_data\\marketing_campaign.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2023-02-09 19:15:25,812] root - INFO - ====================Data Validation log started.==================== 
+[2023-02-09 19:15:25,828] root - INFO -  Shape of the data file: (2240, 29)
+[2023-02-09 19:15:25,843] numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2023-02-09 19:15:25,858] root - INFO -  Shape of cleaned data file: (2204, 34)
+[2023-02-09 19:15:25,886] root - INFO - Saved cleaned data to artifacts\dataset\clean_data
+[2023-02-09 19:15:25,886] root - INFO - ====================Data Validation log completed.==================== 
+
+
+[2023-02-09 19:15:25,887] root - INFO - Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2023-02-09 19:15:25,887] root - INFO - ====================Data Transformation log started.==================== 
+[2023-02-09 19:15:25,920] root - INFO - Saved personality data to artifacts\dataset\transformed_data
+[2023-02-09 19:15:25,920] root - INFO - ====================Data Transformation log completed.==================== 
+
+
